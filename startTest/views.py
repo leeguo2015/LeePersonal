@@ -12,7 +12,7 @@ def page1_view(request):
     else:
         # html = "<h1>这是第1个页面get</h1>"
         # return HttpResponse(html)
-        return render(request,'testHtml.html')
+        return render(request,'boot_.html')
 
 
 def page1_ex(request):
