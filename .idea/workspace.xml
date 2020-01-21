@@ -2,27 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a5b9039-de00-45d7-9bca-744eb7e56522" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/LeePersonal/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/LeePersonal/settings.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/LeePersonal/urls.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/LeePersonal/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/boot_code.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/boot_forms.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/boot_m.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/boot_table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/boot_栅格.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LeePer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LeePer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeePersonal/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeePersonal/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeePersonal/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeePersonal/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/startTest/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/startTest/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/boot_forms.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/boot_forms.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -156,7 +141,8 @@
       <workItem from="1579429632468" duration="2071000" />
       <workItem from="1579434418734" duration="9589000" />
       <workItem from="1579592315394" duration="59000" />
-      <workItem from="1579595285579" duration="12324000" />
+      <workItem from="1579595285579" duration="13071000" />
+      <workItem from="1579624895763" duration="3374000" />
     </task>
     <servers />
   </component>
