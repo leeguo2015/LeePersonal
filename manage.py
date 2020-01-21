@@ -2,7 +2,7 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-
+import os
 
 def main():
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'LeePersonal.settings')
@@ -19,3 +19,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+    # os.system("python3 manage.py runserver 0.0.0.0:80")

@@ -1,18 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a5b9039-de00-45d7-9bca-744eb7e56522" name="Default Changelist" comment="" />
+    <list default="true" id="0a5b9039-de00-45d7-9bca-744eb7e56522" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeePersonal/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeePersonal/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeePersonal/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeePersonal/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/boot_code.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/boot_forms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/boot_m.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/boot_table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/boot_栅格.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LeePer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LeePer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeePersonal/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeePersonal/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeePersonal/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeePersonal/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startTest/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/startTest/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="LeePersonal" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -28,18 +67,24 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lee\Desktop\LeePersonal\templates" />
+      <recent name="C:\Users\lee\Desktop\LeePersonal\templates\boot" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lee\Desktop\LeePersonal\templates" />
       <recent name="C:\Users\lee\Desktop\LeePersonal\static\js" />
     </key>
   </component>
@@ -55,7 +100,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.boot_.html">
+  <component name="RunManager" selected="Python.manage">
     <configuration name="boot_2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LeePersonal/templates/boot_2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -65,8 +110,31 @@
     <configuration name="vue_.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LeePersonal/templates/vue_.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeePer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.manage" />
         <item itemvalue="JavaScript Debug.boot_.html" />
         <item itemvalue="JavaScript Debug.boot_2.html" />
         <item itemvalue="JavaScript Debug.vue_.html" />
@@ -86,7 +154,9 @@
       <workItem from="1579428758514" duration="292000" />
       <workItem from="1579429393531" duration="209000" />
       <workItem from="1579429632468" duration="2071000" />
-      <workItem from="1579434418734" duration="8890000" />
+      <workItem from="1579434418734" duration="9589000" />
+      <workItem from="1579592315394" duration="59000" />
+      <workItem from="1579595285579" duration="12324000" />
     </task>
     <servers />
   </component>
@@ -98,10 +168,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LeePersonal$manage.coverage" NAME="manage Coverage Results" MODIFIED="1579607963022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

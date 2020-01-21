@@ -21,11 +21,6 @@ from ex.urls import ex_urlpatterns
 from startTest import views
 
 urlpatterns = [
-    # path('admin/', admin.site.urls),
-    path('startest/', views.page1_view),
     path('', views.page1_view),
-    # path('ex/', include("ex.views")),
-    # url(r'^startest/', admin.site.urls),
-    # path(r'^admin/', admin.site.urls),
 ]
 urlpatterns += ex_urlpatterns
