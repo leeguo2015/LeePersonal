@@ -35,3 +35,18 @@ def boot_table(request):
 
 def boot_forms(request):
     return render(request,'boot_forms.html')
+
+def boot_button(request):
+    print("boot_button")
+    return render(request,'boot_button.html')
+
+def drop_down_menu(request):
+    return render(request,'drop-down_menu.html')
+
+def buttonGroup(request):
+    print("buttonGroup")
+    return render(request,'buttonGroup.html')
+
+def buttonMenu(request):
+    print("buttonMenu")
+    return render(request,'bootButtonMenu.html')
