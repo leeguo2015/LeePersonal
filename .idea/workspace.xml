@@ -1,23 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a5b9039-de00-45d7-9bca-744eb7e56522" name="Default Changelist" comment="1月22日, 凌晨2点">
-      <change afterPath="$PROJECT_DIR$/LeePersonal/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeePersonal/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeePersonal/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeePersonal/wsgi.py" afterDir="false" />
+    <list default="true" id="0a5b9039-de00-45d7-9bca-744eb7e56522" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app_user/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_user/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_user/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nohup.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/boot_s/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LeePer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LeePer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeePersonal/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeePersonal/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeePersonal/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeePersonal/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeePersonal/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeePersonal/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_host/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_host/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_host/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_host/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_host/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_host/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_host/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_host/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/start.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/startTest/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/startTest/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/bootButtonMenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/bootButtonMenu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/boot_button.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/boot_button.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/boot_forms.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/boot_forms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/boot_m.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/boot_m.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/buttonGroup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/buttonGroup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/drop-down_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/drop-down_menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startTest/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startTest/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/startTest/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/startTest/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/startTest/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/startTest/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/startTest/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/startTest/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap-3.3.7/docs/_data/glyphicons.yml" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap-3.3.7/docs/_data/glyphicons.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap-3.3.7/docs/assets/js/customize.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap-3.3.7/docs/assets/js/customize.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap-3.3.7/docs/assets/js/raw-files.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap-3.3.7/docs/assets/js/raw-files.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap-3.3.7/docs/assets/js/vendor/autoprefixer.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap-3.3.7/docs/assets/js/vendor/autoprefixer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap-3.3.7/js/tests/unit/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap-3.3.7/js/tests/unit/dropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap-3.3.7/js/tests/vendor/qunit.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap-3.3.7/js/tests/vendor/qunit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap-3.3.7/less/navbar.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap-3.3.7/less/navbar.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap-3.3.7/less/normalize.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap-3.3.7/less/normalize.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap-3.3.7/less/responsive-utilities.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap-3.3.7/less/responsive-utilities.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bootButtonMenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/boot_s/bootButtonMenu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/boot_.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/host.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/boot_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/boot_s/boot_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/boot_button.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/boot_s/boot_button.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/boot_code.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/boot_s/boot_code.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/boot_forms.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/boot_s/boot_forms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/boot_js.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/boot_s/boot_js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/boot_m.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/boot_s/boot_m.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/boot_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/boot_s/boot_table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/boot_栅格.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/boot_s/boot_栅格.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/buttonGroup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/boot_s/buttonGroup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/drop-down_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/boot_s/drop-down_menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/testHtml.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/boot_s/testHtml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/vue_.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/boot_s/vue_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,26 +103,29 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/userapp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lee\Desktop\LeePersonal\templates" />
-      <recent name="C:\Users\lee\Desktop\LeePersonal\templates\boot" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lee\Desktop\LeePersonal\userapp" />
       <recent name="C:\Users\lee\Desktop\LeePersonal\templates" />
       <recent name="C:\Users\lee\Desktop\LeePersonal\static\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lee\Desktop\LeePersonal\templates\boot_s" />
+      <recent name="C:\Users\lee\Desktop\LeePersonal\templates" />
+      <recent name="C:\Users\lee\Desktop\LeePersonal\templates\boot" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -95,14 +140,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.manage">
-    <configuration name="boot_2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LeePersonal/templates/boot_2.html" useBuiltInWebServerPort="true">
+  <component name="RunManager">
+    <configuration name="boot_2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LeePersonal/templates/boot_s/boot_2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="boot_.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LeePersonal/templates/boot_.html" useBuiltInWebServerPort="true">
+    <configuration name="host.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LeePersonal/templates/host.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="vue_.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LeePersonal/templates/vue_.html" useBuiltInWebServerPort="true">
+    <configuration name="vue_.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/LeePersonal/templates/boot_s/vue_.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -150,7 +195,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.boot_.html" />
+      <item itemvalue="JavaScript Debug.host.html" />
       <item itemvalue="JavaScript Debug.boot_2.html" />
       <item itemvalue="JavaScript Debug.vue_.html" />
       <item itemvalue="Python.manage" />
@@ -158,9 +203,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.manage" />
         <item itemvalue="Python.start" />
-        <item itemvalue="JavaScript Debug.boot_.html" />
+        <item itemvalue="JavaScript Debug.host.html" />
+        <item itemvalue="Python.manage" />
         <item itemvalue="JavaScript Debug.boot_2.html" />
         <item itemvalue="JavaScript Debug.vue_.html" />
       </list>
@@ -194,9 +239,27 @@
       <workItem from="1581943983077" duration="6062000" />
       <workItem from="1582102265121" duration="517000" />
       <workItem from="1582102881929" duration="1239000" />
-      <workItem from="1582340237148" duration="1871000" />
+      <workItem from="1582340237148" duration="2653000" />
+      <workItem from="1582350026051" duration="1328000" />
+      <workItem from="1582452979489" duration="9052000" />
+      <workItem from="1582472374797" duration="673000" />
+      <workItem from="1582540460331" duration="9258000" />
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2月22日, 午饭没吃, 有点饿">
+      <created>1582342198601</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582342198602</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2月22日">
+      <created>1582342235635</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582342235635</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,11 +279,14 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="1月22日, 凌晨2点" />
-    <option name="LAST_COMMIT_MESSAGE" value="1月22日, 凌晨2点" />
+    <MESSAGE value="2月22日, 午饭没吃, 有点饿" />
+    <MESSAGE value="2月22日" />
+    <option name="LAST_COMMIT_MESSAGE" value="2月22日" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeePersonal$manage.coverage" NAME="manage Coverage Results" MODIFIED="1582341714531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LeePersonal$start.coverage" NAME="start Coverage Results" MODIFIED="1582340571878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeePersonal$start.coverage" NAME="start Coverage Results" MODIFIED="1582552612039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

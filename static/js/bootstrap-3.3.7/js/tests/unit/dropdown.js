@@ -383,7 +383,7 @@ $(function () {
     assert.ok(!$(document.activeElement).parent().is('.disabled'), '.disabled is not focused')
   })
 
-  QUnit.test('should not close the dropdown if the user clicks on a text field', function (assert) {
+  QUnit.test('should not close the dropdown if the app_user clicks on a text field', function (assert) {
     assert.expect(1)
     var dropdownHTML = '<div class="btn-group">'
         + '<button type="button" data-toggle="dropdown">Dropdown</button>'
@@ -402,7 +402,7 @@ $(function () {
     assert.ok($dropdown.parent('.btn-group').hasClass('open'), 'dropdown menu is open')
   })
 
-  QUnit.test('should not close the dropdown if the user clicks on a textarea', function (assert) {
+  QUnit.test('should not close the dropdown if the app_user clicks on a textarea', function (assert) {
     assert.expect(1)
     var dropdownHTML = '<div class="btn-group">'
         + '<button type="button" data-toggle="dropdown">Dropdown</button>'

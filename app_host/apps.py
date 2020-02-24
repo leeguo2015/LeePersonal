@@ -2,4 +2,4 @@ from django.apps import AppConfig
 
 
 class ExConfig(AppConfig):
-    name = 'ex'
+    name = 'app_host'
