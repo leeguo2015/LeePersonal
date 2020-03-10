@@ -5,5 +5,4 @@ from django.shortcuts import render
 # from .models import Question
 
 def host(request):
-    # print("aaaaaaaaaaaaaaaaaaaaaaaa")
-    return render(request, 'host.html')
+    return render(request, './hostTemplates/home.html')

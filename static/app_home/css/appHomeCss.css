@@ -1,0 +1,26 @@
+.bg {
+    background: url("/static/15240.jpg") ;
+    /*background: url("/static/15240.jpg") center no-repeat;*/
+        background-position: center 0;
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-size: cover;
+          -webkit-background-size: cover;
+          -o-background-size: cover;
+          -moz-background-size: cover;
+          /*-ms-background-size: cover;*/
+
+	/*margin: 0;*/
+	/*padding: 0;*/
+	/*font-family: sans-serif;*/
+	/*background-size: cover;*/
+
+    /* background-position: center 0;*/
+    /* background-repeat: no-repeat;*/
+    /* background-attachment: fixed;*/
+    /*  -webkit-background-size: cover;*/
+    /*  -o-background-size: cover;*/
+    /*  -moz-background-size: cover;*/
+
+
+}

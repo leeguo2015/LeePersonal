@@ -3,28 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% block title %}My amazing site{%/span> endblock %}</title>
+    <title>{% block title %}基础模板 {% endblock %}</title>
     <link rel="stylesheet" href="/static/js/bootstrap-3.3.7/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/static/app_home/css/appHomeCss.css">
     <style>
         body {
             padding-top: 50px;
         }
+
         .text-center {
             padding: 20px 20px;
             height: 500px;
         }
+
         .text-right {
 
             padding-bottom: 50px;
         }
     </style>
 </head>
-<body>
+<body class="bg">
 
-<div class="container-fluid">
-    <div class="row bg">
-        <div class="container">
+<div class="container-fluid ">
+
+             {% block sidebar %}
             <nav class="navbar navbar-inverse navbar-fixed-top " role="navigation">
                 <div class="container">
                     <div class="navbar-header">
@@ -39,23 +41,28 @@
                     </div>
                 </div>
             </nav>
-            {% block sidebar %}
+            {% endblock %}
+            {% block content %}
+            <div class="container">
             <div>
-                            <div class="starter">
-                <div>
-                    <h1><p class="text-center"><a href="#" class="">随便写点</a></p></h1>
+                <div class="starter">
+
+                    <div>
+                        <h1><p class="text-center"><a href="#" class="">随便写点</a></p></h1>
+                    </div>
+
+                    <div>
+
+                        <h4 class="text-right"><p class="lead"> 很高兴你能来到这里 <small> - leeguo</small></p></h4>
+
+                    </div>
+
                 </div>
-
-                <div >
-                    <h4 class="text-right"><p class="lead"> 很高兴你能来到这里 <small> - leeguo</small></p></h4>
-                </div>
-
             </div>
-            </div>
+            {% endblock %}
 
-            {% block content %}{% endblock %}
         </div>
-    </div>
+
 </div>
 </body>
 </html>
