@@ -78,7 +78,21 @@ $(document).ready(function () {
         }
     });
 
-    obj_register.click(
+    obj_register.click( function () {
+                $.post("/user/register/",
+            {
+                "user": {
+                    'name': 'threedog',
+                    'age': 18,
+                    'sex': '男'
+                },
+                "password": "123456"
+            },
+            function (res) {
+                console.log(res);
+            })
+
+        }
         //     $.ajax({
         //     url: "/user/register",              //请求地址
         //     type: "POST",                       //请求方式
@@ -93,18 +107,7 @@ $(document).ready(function () {
         // })
 
 
-        $.post("/user/register/",
-            {
-                "user": {
-                    'name': 'threedog',
-                    'age': 18,
-                    'sex': '男'
-                },
-                "password": "123456"
-            },
-            function (res) {
-                console.log(res);
-            })
+
     )
 
 

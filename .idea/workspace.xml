@@ -2,22 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a5b9039-de00-45d7-9bca-744eb7e56522" name="Default Changelist" comment="revolution">
+      <change afterPath="$PROJECT_DIR$/app_article/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_article/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_article/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_article/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_article/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_article/static/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_article/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_article/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_host/static/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_user/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app_user/static/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LeePer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LeePer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeePersonal/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeePersonal/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LeePersonal/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeePersonal/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeePersonal/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeePersonal/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_host/templates/app_host/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_host/templates/app_host/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_host/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_host/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_host/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_host/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_user/templates/userInfo/logIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/templates/userInfo/logIn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_user/templates/userInfo/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/templates/userInfo/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app_home/css/appHomeCss.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/app_home/css/appHomeCss.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app_user/css/appUserCss.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/app_user/css/appUserCss.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app_user/css/appUserRegister.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/app_user/css/appUserRegister.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app_user/js/appUserRegister.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/app_user/js/appUserRegister.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/app_home/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_host/static/app_host/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/app_home/css/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_host/static/app_host/css/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/app_home/css/appHomeCss.css" beforeDir="false" afterPath="$PROJECT_DIR$/app_host/static/app_host/css/appHomeCss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/app_home/js/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_host/static/app_host/js/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/app_home/js/appHomejs.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_host/static/app_host/js/appHomejs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/app_user/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/static/app_user/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/app_user/css/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/static/app_user/css/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/app_user/css/appUserCss.css" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/static/app_user/css/appUserCss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/app_user/css/appUserRegister.css" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/static/app_user/css/appUserRegister.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/app_user/js/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/static/app_user/js/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/app_user/js/appUserRegister.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/static/app_user/js/appUserRegister.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/app_user/js/appUserjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/static/app_user/js/appUserjs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +63,8 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="Python Script" />
         <option value="JavaScript File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -68,7 +83,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/app_user/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app_article" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -76,21 +91,21 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\lee\Desktop\LeePersonal\app_host\templates\app_host" />
-      <recent name="C:\Users\lee\Desktop\LeePersonal\app_host\templates" />
-      <recent name="C:\Users\lee\Desktop\LeePersonal\app_user\templates\userInfo" />
-      <recent name="C:\Users\lee\Desktop\LeePersonal\app_user\templates" />
-      <recent name="C:\Users\lee\Desktop\LeePersonal\templates\host" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lee\Desktop\LeePersonal\app_article" />
+      <recent name="C:\Users\lee\Desktop\LeePersonal\app_host" />
       <recent name="C:\Users\lee\Desktop\LeePersonal\static\app_user\js" />
       <recent name="C:\Users\lee\Desktop\LeePersonal\static\app_user\css" />
       <recent name="C:\Users\lee\Desktop\LeePersonal\static" />
-      <recent name="C:\Users\lee\Desktop\LeePersonal\static\app_home\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lee\Desktop\LeePersonal\app_user\static" />
+      <recent name="C:\Users\lee\Desktop\LeePersonal\app_host\static" />
+      <recent name="C:\Users\lee\Desktop\LeePersonal\app_host\templates\app_host" />
+      <recent name="C:\Users\lee\Desktop\LeePersonal\app_host\templates" />
       <recent name="C:\Users\lee\Desktop\LeePersonal\app_user\templates\userInfo" />
     </key>
   </component>
@@ -221,6 +236,8 @@
       <workItem from="1584058233702" duration="14778000" />
       <workItem from="1584248282281" duration="18907000" />
       <workItem from="1584317356258" duration="21413000" />
+      <workItem from="1584441902694" duration="146000" />
+      <workItem from="1584445855456" duration="8749000" />
     </task>
     <task id="LOCAL-00002" summary="2月22日, 午饭没吃, 有点饿">
       <created>1582342198601</created>

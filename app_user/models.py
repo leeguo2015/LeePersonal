@@ -1,4 +1,4 @@
-import BaseModel as BaseModel
+# import BaseModel as BaseModel
 from django.db import models
 # Create your models here.
 # Django 未我们提供的ORM框架, 可以更加代码自动生成数据表
