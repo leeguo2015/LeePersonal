@@ -2,25 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a5b9039-de00-45d7-9bca-744eb7e56522" name="Default Changelist" comment="revolution">
-      <change beforePath="$PROJECT_DIR$/.idea/LeePer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LeePer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LeePersonal/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeePersonal/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LeePersonal/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeePersonal/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LeePersonal/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeePersonal/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_host/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_host/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_host/templates/app_host/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_host/templates/app_host/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_host/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_host/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_host/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_host/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_user/templates/userInfo/logIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/templates/userInfo/logIn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_user/templates/userInfo/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/templates/userInfo/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app_user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/start.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/app_home/css/appHomeCss.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/app_home/css/appHomeCss.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/bootstrap-3.3.7/docs/assets/js/customize.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap-3.3.7/docs/assets/js/customize.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/bootstrap-3.3.7/docs/assets/js/vendor/less.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap-3.3.7/docs/assets/js/vendor/less.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/app_user/css/appUserCss.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/app_user/css/appUserCss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/app_user/css/appUserRegister.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/app_user/css/appUserRegister.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/app_user/js/appUserRegister.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/app_user/js/appUserRegister.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/python.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/pythonw.exe" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +49,7 @@
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -69,7 +68,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/app_user/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -77,22 +76,22 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\lee\Desktop\LeePersonal\templates" />
-      <recent name="C:\Users\lee\Desktop\LeePersonal\app_user\templates\userInfo" />
-      <recent name="C:\Users\lee\Desktop\LeePersonal\app_user\templates" />
-      <recent name="C:\Users\lee\Desktop\LeePersonal\app_user" />
-      <recent name="C:\Users\lee\Desktop\LeePersonal\static\app_home" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lee\Desktop\LeePersonal\app_host\templates\app_host" />
+      <recent name="C:\Users\lee\Desktop\LeePersonal\app_host\templates" />
       <recent name="C:\Users\lee\Desktop\LeePersonal\app_user\templates\userInfo" />
       <recent name="C:\Users\lee\Desktop\LeePersonal\app_user\templates" />
       <recent name="C:\Users\lee\Desktop\LeePersonal\templates\host" />
-      <recent name="C:\Users\lee\Desktop\LeePersonal\templates\boot_s" />
-      <recent name="C:\Users\lee\Desktop\LeePersonal\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lee\Desktop\LeePersonal\static\app_user\js" />
+      <recent name="C:\Users\lee\Desktop\LeePersonal\static\app_user\css" />
+      <recent name="C:\Users\lee\Desktop\LeePersonal\static" />
+      <recent name="C:\Users\lee\Desktop\LeePersonal\static\app_home\js" />
+      <recent name="C:\Users\lee\Desktop\LeePersonal\app_user\templates\userInfo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -217,7 +216,11 @@
       <workItem from="1583411562718" duration="13687000" />
       <workItem from="1583637496982" duration="13710000" />
       <workItem from="1583837972876" duration="6925000" />
-      <workItem from="1583851448262" duration="468000" />
+      <workItem from="1583851448262" duration="1162000" />
+      <workItem from="1583925900446" duration="16812000" />
+      <workItem from="1584058233702" duration="14778000" />
+      <workItem from="1584248282281" duration="18907000" />
+      <workItem from="1584317356258" duration="21413000" />
     </task>
     <task id="LOCAL-00002" summary="2月22日, 午饭没吃, 有点饿">
       <created>1582342198601</created>
@@ -240,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582553298058</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="revolution">
+      <created>1583851944696</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583851944696</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

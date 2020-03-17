@@ -8,18 +8,12 @@ from django.db import models
 # 2.2 执行迁移
 from django.contrib.auth.models import AbstractUser
 
-
-# class UsersInfo(AbstractUser):
-#     # AUTH_USER_MODEL = 'users.User'
-#     user_role = models.CharField('角色', max_length=100, blank=True)
-#     telephone = models.CharField(max_length=11, blank=True, null=True, unique=True, verbose_name='手机号码')
-#     # avatar = models.FileField(verbose_name='头像', upload_to='avatar', default="")
-
-# class User(AbstractUser):
-#     """用户模型类"""
-#
-#     class Meta:
-#         db_table = 'df_user'
-#         verbose_name = '用户'
-#         verbose_name_plural = verbose_name
+class UserInfo(AbstractUser):
+    """用户模型类"""
+    nickname = models.CharField(max_length=100, verbose_name="昵称", null=True, default=None, blank=True)
+    phone = models.CharField(max_length=16, verbose_name="手机号")
+    class Meta:
+        db_table = 'df_user'
+        verbose_name = '用户'
+        verbose_name_plural = verbose_name
 

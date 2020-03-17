@@ -4,7 +4,7 @@ from django.urls import path, include
 from app_host import views
 
 urlpatterns = [
-    path('', views.host),
+    path('', views.Host.as_view(), name="app_host"),
     # path('boot/container/', views.page2_ex),
     # path('boot/code/', views.boot_code),
     # path('boot/table/', views.boot_table),

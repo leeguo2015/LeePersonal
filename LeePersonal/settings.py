@@ -25,7 +25,7 @@ SECRET_KEY = '*)ya1rymywsa*i5fvcfqj%(n4jfgw(k)=&=p)=g78t_r)catyw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["*"] # 不安全正式上线改
 
 
 # Application definition
@@ -37,13 +37,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "app_host",
+    "app_user",
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    # 'django.middleware.csrf.CsrfViewMiddleware', # 有https 就可以启用
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -81,14 +83,20 @@ DATABASES = {
     #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     # }
 
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.mysql',   # 数据库引擎
-    #     'NAME': 'information_schema',         # 你要存储数据的库名，事先要创建之
-    #     'USER': 'root',         # 数据库用户名
-    #     'PASSWORD': '',     # 密码
-    #     'HOST': '180.76.153.63',    # 主机
-    #     'PORT': '3306',         # 数据库使用的端口
-    # }
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',   # 数据库引擎
+        'NAME': 'lee2020',         # 你要存储数据的库名，事先要创建之
+        'USER': 'root',         # 数据库用户名
+        # 'PASSWORD': '123456',     # 密码
+        'PASSWORD': 'Lee2020/02/05',     # 密码
+        # 'PASSWORD': '',     # 密码
+        # 'PASSWORD': 'Lee2020_02_05',     # 密码
+        # 'HOST': 'localhost',    # 主机
+        # 'HOST': '180.76.154.63',    # 主机
+        'HOST': '127.0.0.1',    # 主机
+        # 'HOST': 'localhost',    # 主机
+        'PORT': '3306',         # 数据库使用的端口
+    }
 }
 
 
@@ -133,3 +141,5 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
 )
+# AUTH_USER_MODEL='book.User'
+AUTH_USER_MODEL = 'app_user.UserInfo'
