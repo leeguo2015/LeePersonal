@@ -1,39 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a5b9039-de00-45d7-9bca-744eb7e56522" name="Default Changelist" comment="revolution">
-      <change afterPath="$PROJECT_DIR$/app_article/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_article/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_article/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_article/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_article/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_article/static/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_article/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_article/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_host/static/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_user/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app_user/static/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LeePer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LeePer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0a5b9039-de00-45d7-9bca-744eb7e56522" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeePersonal/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeePersonal/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LeePersonal/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeePersonal/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_host/templates/app_host/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_host/templates/app_host/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_user/templates/userInfo/logIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/templates/userInfo/logIn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app_user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app_home/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_host/static/app_host/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app_home/css/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_host/static/app_host/css/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app_home/css/appHomeCss.css" beforeDir="false" afterPath="$PROJECT_DIR$/app_host/static/app_host/css/appHomeCss.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app_home/js/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_host/static/app_host/js/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app_home/js/appHomejs.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_host/static/app_host/js/appHomejs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app_user/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/static/app_user/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app_user/css/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/static/app_user/css/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app_user/css/appUserCss.css" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/static/app_user/css/appUserCss.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app_user/css/appUserRegister.css" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/static/app_user/css/appUserRegister.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app_user/js/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/static/app_user/js/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app_user/js/appUserRegister.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/static/app_user/js/appUserRegister.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/app_user/js/appUserjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/static/app_user/js/appUserjs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app_user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app_user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -237,7 +210,7 @@
       <workItem from="1584248282281" duration="18907000" />
       <workItem from="1584317356258" duration="21413000" />
       <workItem from="1584441902694" duration="146000" />
-      <workItem from="1584445855456" duration="8749000" />
+      <workItem from="1584445855456" duration="16552000" />
     </task>
     <task id="LOCAL-00002" summary="2月22日, 午饭没吃, 有点饿">
       <created>1582342198601</created>
@@ -267,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583851944696</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="规划目录">
+      <created>1584458708171</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1584458708172</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,7 +272,8 @@
     <MESSAGE value="2月22日, 午饭没吃, 有点饿" />
     <MESSAGE value="2月22日" />
     <MESSAGE value="revolution" />
-    <option name="LAST_COMMIT_MESSAGE" value="revolution" />
+    <MESSAGE value="规划目录" />
+    <option name="LAST_COMMIT_MESSAGE" value="规划目录" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/LeePersonal$manage.coverage" NAME="manage Coverage Results" MODIFIED="1582341714531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

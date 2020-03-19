@@ -36,9 +36,10 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'django.contrib.staticfiles', # 静态文件加载
     "app_host",
     "app_user",
+    "app_article",
 ]
 
 MIDDLEWARE = [
@@ -59,7 +60,7 @@ TEMPLATES = [
         # 'DIRS': [],
         'DIRS': [os.path.join(BASE_DIR, 'templates')],  # 添加模板路径
         # 'DIRS': [os.path.join(BASE_DIR, 'templates')],  # 添加模板路径
-        'APP_DIRS': True,
+        'APP_DIRS': True, # 除了指定模板, 还回去app下边去找templates;
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
@@ -92,8 +93,8 @@ DATABASES = {
         # 'PASSWORD': '',     # 密码
         # 'PASSWORD': 'Lee2020_02_05',     # 密码
         # 'HOST': 'localhost',    # 主机
-        # 'HOST': '180.76.154.63',    # 主机
-        'HOST': '127.0.0.1',    # 主机
+        'HOST': '180.76.154.63',    # 主机
+        # 'HOST': '127.0.0.1',    # 主机
         # 'HOST': 'localhost',    # 主机
         'PORT': '3306',         # 数据库使用的端口
     }
@@ -143,3 +144,4 @@ STATICFILES_DIRS = (
 )
 # AUTH_USER_MODEL='book.User'
 AUTH_USER_MODEL = 'app_user.UserInfo'
+print(STATICFILES_DIRS)

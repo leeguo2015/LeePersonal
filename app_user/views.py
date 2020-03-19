@@ -31,7 +31,7 @@ class Register(View):
             # return HttpResponseRedirect('/uauth/dj_login/')
             print("---------------")
             print(request.body)
-
+            result = {"status": 200, "content":""}
             receive_data = json.loads(request.body.decode())
             print(name, password, email, nickname)
 
